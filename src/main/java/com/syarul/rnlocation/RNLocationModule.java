@@ -123,6 +123,11 @@ public class RNLocationModule extends ReactContextBaseJavaModule{
                 mLocationListener = null;
             }
         }
+    
+        @ReactMethod
+        public void setDesiredAccuracy() {
+            Log.i(TAG, "Not implemented");
+        }
 
         /*
          * Internal function for communicating with JS
