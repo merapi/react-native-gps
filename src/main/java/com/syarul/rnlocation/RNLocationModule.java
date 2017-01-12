@@ -125,7 +125,7 @@ public class RNLocationModule extends ReactContextBaseJavaModule{
         }
     
         @ReactMethod
-        public void setDesiredAccuracy() {
+        public void setDesiredAccuracy(double accuracy) {
             Log.i(TAG, "Not implemented");
         }
 
